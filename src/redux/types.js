@@ -1,0 +1,9 @@
+export const ADD_ROW = 'ADD_ROW';
+export const DELETE_ROW = 'DELETE_ROW';
+export const EDIT_ROW = 'EDIT_ROW';
+export const GET_ROW = 'GET_ROW';
+export const SET_CURRENT = 'SET_CURRENT';
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';
+export const UPDATE_ROW = 'UPDATE_ROW';
+export const SET_LOADING = 'SET_LOADING';
+export const STOP_LOADING = 'STOP_LOADING';

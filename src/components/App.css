@@ -1,0 +1,42 @@
+.form-wrapper {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(99, 209, 99, 0.611);
+
+    padding: 10px;
+}
+
+.text {
+    width: 50%;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+label.main {
+    font-weight: 900;
+}
+
+.submit-btn {
+    background: linear-gradient(
+        to bottom right,
+        rgba(10, 216, 10, 0.323),
+        rgba(255, 0, 34, 0.645)
+    );
+
+    text-align: center;
+    border-radius: 7px;
+}
+small.error {
+    color: red;
+}
+small.hide {
+    display: none;
+}
+
+small {
+    display: block;
+    text-align: left;
+}
